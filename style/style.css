@@ -1,5 +1,5 @@
 body {
-    min-width: 500px;
+    min-width: 900px;
   }
 
 .layout-positioner {
@@ -15,8 +15,7 @@ body {
 
 .header {
     color: white;
-    background-color: #293133;
-    margin-bottom: 10px;
+    background-color: black;
   }
 
 .header .layout-column-1 {
@@ -24,14 +23,18 @@ body {
     width: 140px;
   }
   
+.logo {
+  transform: scale(-1, 1);
+}
+
 .header .layout-column-2 {
     float: right;
     width: 760px;
   }
 
 .content {
-    background-color: #B5B8B1;
-    margin-bottom: 10px;
+  background-color: #B5B8B1;
+  margin-bottom: -100px;
 }
 
 h3 {
@@ -39,6 +42,7 @@ h3 {
 }
 
 .content-left {
+  padding-top: 40px;
     width: 120px;
 }
 
@@ -51,10 +55,16 @@ li {
 }
 
 .content-center {
+  padding-top: 10px;
+  min-height: 700px;
+  color: white;
+  position: relative;
+  overflow: hidden;
     padding-left: 5px;
     width: 616px;
     border-right: 2px solid black;
     border-left: 2px solid black;
+    background: url(../image/centerBg.jpg) 0 0 no-repeat;
 }
 
 .member,
@@ -73,6 +83,7 @@ li {
 
 .content-right {
     width: 120px;
+    padding-top: 10px;
 }
 
 .features .layout-column {
