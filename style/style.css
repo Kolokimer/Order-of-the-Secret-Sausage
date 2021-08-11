@@ -123,6 +123,7 @@ li {
 .footer {
     color: #7E7E7E;
     background-color: #111111;
+    border-top: 2px solid #333333;
 }
 
 h4 {
