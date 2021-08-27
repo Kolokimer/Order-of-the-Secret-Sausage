@@ -41,8 +41,7 @@ th {
     background-color: #111111;
     border-bottom: 2px solid #333333;
     position: fixed;
-    left: auto;
-    right: auto;
+    left: 50%;
   }
 
 .header .layout-column-1 {
