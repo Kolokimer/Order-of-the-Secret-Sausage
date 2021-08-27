@@ -45,6 +45,7 @@ th {
   }
 
 .header .layout-column-1 {
+    float: left;
     width: 140px;
   }
   
