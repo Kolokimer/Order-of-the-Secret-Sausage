@@ -81,10 +81,9 @@ li {
 
 .nav-menu{
     position: fixed;
-    
-        ul ul li{
-         margin-left: -30px;
-     }
+}
+.nav-menu ul ul li{
+    margin-left: -30px;
 }
 
 .content-center {
