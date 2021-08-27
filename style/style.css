@@ -75,16 +75,16 @@ h3 {
     width: 120px;
 }
 
-content-menu {
- position: fixed;   
-}
-
 li {
     margin-bottom: 5px;
 }
 
-.nav-menu ul ul li{
- margin-left: -30px;
+.nav-menu{
+    position: fixed;
+    
+        ul ul li{
+         margin-left: -30px;
+     }
 }
 
 .content-center {
