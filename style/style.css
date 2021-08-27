@@ -41,7 +41,8 @@ th {
     background-color: #111111;
     border-bottom: 2px solid #333333;
     position: fixed;
-    left: 25%;
+    width: 100vw;
+    z-index: 1;
   }
 
 .header .layout-column-1 {
@@ -66,6 +67,7 @@ th {
 .content {
   background-color: #0a0a0c;
   margin-bottom: -100px;
+  padding-top: 130px;
 }
 
 h3 {
