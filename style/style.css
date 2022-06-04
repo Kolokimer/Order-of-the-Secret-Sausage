@@ -57,7 +57,7 @@ th {
 }
 
 .header .layout-column-2 {
-   float: right;
+   float: left;
    width: 760px;
 }
 
@@ -107,6 +107,7 @@ li {
    display: flex;
    flex-wrap: wrap;
    margin-left: 10px;
+   margin-bottom: 10px;
 }
 
 .member {
