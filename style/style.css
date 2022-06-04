@@ -1,4 +1,5 @@
 body {
+   background-color: #111111;
    min-width: 900px;
    color: #c4b998;
    padding: 0;
@@ -25,8 +26,9 @@ th {
    padding: 2px 5px;
 }
 
+
 .layout-positioner {
-   width: 900px;
+   width: 1020px;
    margin: 0 auto;
 }
 
@@ -66,7 +68,6 @@ th {
 
 .content {
    background-color: #0a0a0c;
-   margin-bottom: -100px;
    padding-top: 130px;
 }
 
@@ -100,9 +101,9 @@ li {
 }
 
 .member,
-.listMembers,
-.crowWiki,
-.crowWiki-list{
+.list-members,
+.crow-wiki,
+.crow-wiki-list{
    display: flex;
    flex-wrap: wrap;
    margin-left: 10px;
