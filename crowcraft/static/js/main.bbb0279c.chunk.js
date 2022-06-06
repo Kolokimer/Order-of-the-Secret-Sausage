@@ -22652,8 +22652,7 @@
                    })]
                })
            },
-           y = (t(1519), t.p + "static/media/logo.a0751731.svg"),
-           R = t.p + "static/media/discord.1be5401f.svg",
+           y = (t(1519), t.p + "../image/logo.png"),
            k = function Header(e) {
                var n = e.className;
                return Object(D.jsx)("div", {
@@ -22661,32 +22660,19 @@
                    children: Object(D.jsxs)("div", {
                        className: "flex justify-between items-center flex-wrap w-100 ph2 mh-auto mw9",
                        children: [Object(D.jsx)("div", {
-                           className: "flex items-center",
+                           className: "flex items-center div-center-logo",
                            children: Object(D.jsx)("img", {
                                src: y,
-                               alt: "Crowcraft logo",
-                               className: "h2 mr2"
-                           })
-                       }), Object(D.jsxs)("div", {
-                           className: "flex items-center",
-                           children: [Object(D.jsx)("a", {
-                               className: "mr4 w7 tc",
-                               href: "https://discord.gg/Ju87JBQGJw",
-                               title: "Join our Discord!",
-                               target: "_blank",
-                               rel: "noopener noreferrer",
-                               children: "Found a bug or want to help?"
-                           }), Object(D.jsx)("a", {
-                               className: "w7",
-                               href: "https://discord.gg/Ju87JBQGJw",
-                               target: "_blank",
-                               rel: "noopener noreferrer",
-                               children: Object(D.jsx)("img", {
-                                   src: R,
-                                   alt: "Discord logo",
-                                   title: "Join our Discord!"
-                               })
-                           })]
+                               alt: "Лого ордена",
+                               className: "logo-order"
+                           })}),
+                           Object(D.jsx)("a", {
+                              className: "text-logo",
+                              href: "../index.html",
+                              title: "Вернутся на главную",
+                              target: "_blank",
+                              rel: "noopener noreferrer",
+                              children: "Добро пожаловать в Орден Тайной Колбасы"
                        })]
                    })
                })
@@ -22706,56 +22692,25 @@
                    children: Object(D.jsxs)("div", {
                        className: "flex justify-between items-center bg-marine mh-auto mw9 h-100",
                        children: [Object(D.jsx)("div", {
-                           className: "mobile-hide | w-100 mw5"
+                           className: ""
                        }), Object(D.jsxs)("div", {
-                           className: "flex flex-column justify-between f7 h-100 pv2",
-                           children: [Object(D.jsxs)("div", {
-                               className: "tc",
-                               children: ["Made with \u2764 by ", Object(D.jsx)("a", {
-                                   href: "https://github.com/Guillaume-Docquier/guillaume-docquier.github.io/projects/1",
-                                   target: "_blank",
-                                   rel: "noopener noreferrer",
-                                   children: "Guike"
-                               })]
-                           }), Object(D.jsx)("div", {
-                               className: "tc",
-                               children: "Special thanks to Upem!"
-                           }), Object(D.jsx)("div", {
-                               className: "tc",
-                               children: "Crowfall 7.100"
-                           })]
-                       }), Object(D.jsx)("div", {
-                           className: "w-100 mw5 flex justify-end",
-                           children: Object(D.jsxs)("form", {
-                               action: "https://www.paypal.com/donate",
-                               method: "post",
-                               target: "_top",
-                               children: [Object(D.jsx)("input", {
-                                   type: "hidden",
-                                   name: "business",
-                                   value: "85SQD8DZ6X3HC"
-                               }), Object(D.jsx)("input", {
-                                   type: "hidden",
-                                   name: "no_recurring",
-                                   value: "0"
-                               }), Object(D.jsx)("input", {
-                                   type: "hidden",
-                                   name: "item_name",
-                                   value: "This will support Guike, the creator of Crowcraft"
-                               }), Object(D.jsx)("input", {
-                                   type: "hidden",
-                                   name: "currency_code",
-                                   value: "CAD"
-                               }), Object(D.jsx)("input", {
-                                   type: "image",
-                                   src: "https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif",
-                                   border: "0",
-                                   name: "submit",
-                                   title: "Donate via PayPal",
-                                   alt: "Donate with PayPal button"
-                               })]
-                           })
-                       })]
+                        className: "flex flex-column justify-between f7 h-100 pv2 div-center",
+                        children: [Object(D.jsxs)("div", {
+                            className: "tc",
+                            children: ["Сделано с \u2764 ", Object(D.jsx)("a", {
+                                href: "https://github.com/Guillaume-Docquier/guillaume-docquier.github.io/projects/1",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: "Guike"
+                            })]
+                        }), Object(D.jsx)("div", {
+                            className: "tc",
+                            children: "Особая благодарность Upem!"
+                        }), Object(D.jsx)("div", {
+                            className: "tc",
+                            children: "Специальная версия от Kolokimer'a"
+                        })]
+                    }),]
                    })
                })
            },

@@ -6,6 +6,13 @@ body{
 code{
    font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace
 }
+.text-logo {
+   margin-right: 17rem;
+   color: #c4b998 !important;
+   font-size: 2em;
+   font-weight: bold;
+   font-family: 'times new roman';
+}
 .nmt5{
    margin-top:-4rem
 }
@@ -47,7 +54,7 @@ code{
    background-color:#fed9b7
 }
 .bg-charcoal{
-   background-color:#3a4454
+   background-color:#0a0a0c
 }
 .bg-bittersweet{
    background-color:#f07167
@@ -56,7 +63,7 @@ code{
    background-color:#925e78
 }
 .bg-marine{
-   background-color:#22293c
+   background-color:#111111
 }
 .b--verdigris{
    border-color:#00afb9
@@ -274,4 +281,15 @@ a:link,a:visited{
 .config-action-button:hover{
    border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,.7)
 }
+.logo-order {
+   width: 120px;
+}
+.div-center-logo {
+   margin: 0.5rem auto;
+   margin-left: 13rem;
+}
+.div-center {
+   margin: 0 auto;
+}
+
 /*# sourceMappingURL=main.be11e5da.chunk.css.map */
