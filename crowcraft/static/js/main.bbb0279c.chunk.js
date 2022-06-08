@@ -5378,7 +5378,7 @@
                var n = Object(o.a)(StitchedLeather);
 
                function StitchedLeather() {
-                   return Object(r.a)(this, StitchedLeather), n.call(this, "stitched leather", [c.h.Leatherworker], [c.i.Common, c.i.Uncommon, c.i.Rare, c.i.Epic, c.i.Legendary], [new c.a(3, new m.Hide), new c.a(3, new m.Hide), new c.a(3, new m.Hide), new c.a(6, new l.LacingSinew)], 1, "", [new h, new f, new p, new O, new j, new v, new C, new S, new E, new D, new B])
+                   return Object(r.a)(this, StitchedLeather), n.call(this, "Прошитая кожа", [c.h.Leatherworker], [c.i.Common, c.i.Uncommon, c.i.Rare, c.i.Epic, c.i.Legendary], [new c.a(3, new m.Hide), new c.a(3, new m.Hide), new c.a(3, new m.Hide), new c.a(6, new l.LacingSinew)], 1, "", [new h, new f, new p, new O, new j, new v, new C, new S, new E, new D, new B])
                }
                return StitchedLeather
            }(c.b),
@@ -22652,7 +22652,7 @@
                    })]
                })
            },
-           y = (t(1519), "image/logo.png"),
+           y = (t(1519), "Order-of-the-Secret-Sausage/image/logo.png"),
            k = function Header(e) {
                var n = e.className;
                return Object(D.jsx)("div", {
