@@ -22652,7 +22652,7 @@
                    })]
                })
            },
-           y = (t(1519), "/image/logo.png"),
+           y = (t(1519), "image/logo.png"),
            k = function Header(e) {
                var n = e.className;
                return Object(D.jsx)("div", {
