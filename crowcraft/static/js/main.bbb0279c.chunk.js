@@ -927,7 +927,7 @@
 
                function Strength() {
                    var e;
-                   return Object(i.a)(this, Strength), n.call(this, "strength", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Strength), n.call(this, "Сила", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Strength
            }(D),
@@ -937,7 +937,7 @@
 
                function Constitution() {
                    var e;
-                   return Object(i.a)(this, Constitution), n.call(this, "constitution", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Constitution), n.call(this, "Телосложение", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Constitution
            }(D),
@@ -947,7 +947,7 @@
 
                function Intellect() {
                    var e;
-                   return Object(i.a)(this, Intellect), n.call(this, "intellect", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Intellect), n.call(this, "Интеллект", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Intellect
            }(D),
@@ -957,7 +957,7 @@
 
                function Dexterity() {
                    var e;
-                   return Object(i.a)(this, Dexterity), n.call(this, "dexterity", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Dexterity), n.call(this, "Ловкость", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Dexterity
            }(D),
@@ -967,7 +967,7 @@
 
                function Spirit() {
                    var e;
-                   return Object(i.a)(this, Spirit), n.call(this, "spirit", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Spirit), n.call(this, "Дух", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Spirit
            }(D),
@@ -977,7 +977,7 @@
 
                function InCombatStaminaRegeneration() {
                    var e;
-                   return Object(i.a)(this, InCombatStaminaRegeneration), n.call(this, "in combat stamina regeneration", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, InCombatStaminaRegeneration), n.call(this, "Регенирация выносливости в бою", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return InCombatStaminaRegeneration
            }(D),
@@ -987,7 +987,7 @@
 
                function BasicAttackDamage() {
                    var e;
-                   return Object(i.a)(this, BasicAttackDamage), n.call(this, "basic attack damage", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, BasicAttackDamage), n.call(this, "Базовый урон", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return BasicAttackDamage
            }(D),
@@ -997,7 +997,7 @@
 
                function AssemblyDifficultyReduction() {
                    var e;
-                   return Object(i.a)(this, AssemblyDifficultyReduction), n.call(this, "assembly difficulty reduction", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, AssemblyDifficultyReduction), n.call(this, "Снижение сложности сборки", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return AssemblyDifficultyReduction
            }(D),
@@ -1007,7 +1007,7 @@
 
                function ExperimentationDifficultyReduction() {
                    var e;
-                   return Object(i.a)(this, ExperimentationDifficultyReduction), n.call(this, "experimentation difficulty reduction", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, ExperimentationDifficultyReduction), n.call(this, "Снижение сложности экспериментов", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return ExperimentationDifficultyReduction
            }(D),
@@ -1017,7 +1017,7 @@
 
                function RunemakingExperimentation() {
                    var e;
-                   return Object(i.a)(this, RunemakingExperimentation), n.call(this, "runemaking experimentation", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, RunemakingExperimentation), n.call(this, "Рунические эксперименты", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return RunemakingExperimentation
            }(D),
@@ -1027,7 +1027,7 @@
 
                function JewelcraftingExperimentation() {
                    var e;
-                   return Object(i.a)(this, JewelcraftingExperimentation), n.call(this, "jewelcrafting experimentation", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, JewelcraftingExperimentation), n.call(this, "Ювелирные эксперименты", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return JewelcraftingExperimentation
            }(D),
@@ -1037,7 +1037,7 @@
 
                function LeatherworkingExperimentation() {
                    var e;
-                   return Object(i.a)(this, LeatherworkingExperimentation), n.call(this, "leatherworking experimentation", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, LeatherworkingExperimentation), n.call(this, "Кожевнечиские эксперементы", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return LeatherworkingExperimentation
            }(D),
@@ -1047,7 +1047,7 @@
 
                function AlchemyExperimentation() {
                    var e;
-                   return Object(i.a)(this, AlchemyExperimentation), n.call(this, "alchemy experimentation", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, AlchemyExperimentation), n.call(this, "Алхимические эксперименты", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return AlchemyExperimentation
            }(D),
@@ -1057,7 +1057,7 @@
 
                function HealingBonus() {
                    var e;
-                   return Object(i.a)(this, HealingBonus), n.call(this, "healing bonus", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, HealingBonus), n.call(this, "Бонус к исцилению", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return HealingBonus
            }(D),
@@ -1067,7 +1067,7 @@
 
                function DamageBonus() {
                    var e;
-                   return Object(i.a)(this, DamageBonus), n.call(this, "damage bonus", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, DamageBonus), n.call(this, "Бонус к урону", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return DamageBonus
            }(D),
@@ -1077,7 +1077,7 @@
 
                function Mining() {
                    var e;
-                   return Object(i.a)(this, Mining), n.call(this, "mining", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Mining), n.call(this, "Шахтерский", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Mining
            }(D),
@@ -1087,7 +1087,7 @@
 
                function Quarrying() {
                    var e;
-                   return Object(i.a)(this, Quarrying), n.call(this, "quarrying", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Quarrying), n.call(this, "Камнеломный", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Quarrying
            }(D),
@@ -1097,7 +1097,7 @@
 
                function Skinning() {
                    var e;
-                   return Object(i.a)(this, Skinning), n.call(this, "skinning", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Skinning), n.call(this, "Скорняческий", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Skinning
            }(D),
@@ -1107,7 +1107,7 @@
 
                function Logging() {
                    var e;
-                   return Object(i.a)(this, Logging), n.call(this, "logging", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Logging), n.call(this, "Лесозаготовка", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Logging
            }(D),
@@ -1127,7 +1127,7 @@
 
                function IceFormationChance() {
                    var e;
-                   return Object(i.a)(this, IceFormationChance), n.call(this, "ice formation chance", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, IceFormationChance), n.call(this, "Шанс создания льда", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return IceFormationChance
            }(D),
@@ -1187,7 +1187,7 @@
 
                function ExploitWeaknessOre() {
                    var e;
-                   return Object(i.a)(this, ExploitWeaknessOre), n.call(this, "exploit weakness: ore", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, ExploitWeaknessOre), n.call(this, "Использование слабости: руда", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return ExploitWeaknessOre
            }(D),
@@ -1197,7 +1197,7 @@
 
                function ExploitWeaknessStone() {
                    var e;
-                   return Object(i.a)(this, ExploitWeaknessStone), n.call(this, "exploit weakness: stone", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, ExploitWeaknessStone), n.call(this, "Использование слабости: камень", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return ExploitWeaknessStone
            }(D),
@@ -1207,7 +1207,7 @@
 
                function ExploitWeaknessAnimal() {
                    var e;
-                   return Object(i.a)(this, ExploitWeaknessAnimal), n.call(this, "exploit weakness: animal", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, ExploitWeaknessAnimal), n.call(this, "Использование слабости: шкуры", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return ExploitWeaknessAnimal
            }(D),
@@ -1217,7 +1217,7 @@
 
                function ExploitWeaknessWood() {
                    var e;
-                   return Object(i.a)(this, ExploitWeaknessWood), n.call(this, "exploit weakness: wood", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, ExploitWeaknessWood), n.call(this, "Использование слабости: дерево", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return ExploitWeaknessWood
            }(D),
@@ -1227,7 +1227,7 @@
 
                function ExploitWeaknessGrave() {
                    var e;
-                   return Object(i.a)(this, ExploitWeaknessGrave), n.call(this, "exploit weakness: grave", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, ExploitWeaknessGrave), n.call(this, "Использование слабости: могилы", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return ExploitWeaknessGrave
            }(D),
@@ -1237,7 +1237,7 @@
 
                function PowerDamageBonusRanged() {
                    var e;
-                   return Object(i.a)(this, PowerDamageBonusRanged), n.call(this, "power damage bonus: ranged", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, PowerDamageBonusRanged), n.call(this, "Бонус к силовому урону: дальнобойный", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return PowerDamageBonusRanged
            }(D),
@@ -1247,7 +1247,7 @@
 
                function PowerDamageBonusMelee() {
                    var e;
-                   return Object(i.a)(this, PowerDamageBonusMelee), n.call(this, "power damage bonus: melee", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, PowerDamageBonusMelee), n.call(this, "Бонус к силовому урону: милишный", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return PowerDamageBonusMelee
            }(D),
@@ -1257,7 +1257,7 @@
 
                function BlacksmithingExperimentation() {
                    var e;
-                   return Object(i.a)(this, BlacksmithingExperimentation), n.call(this, "blacksmithing experimentation", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, BlacksmithingExperimentation), n.call(this, "Кузнечные эксперименты", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return BlacksmithingExperimentation
            }(D),
@@ -1267,7 +1267,7 @@
 
                function StonemasonryExperimentation() {
                    var e;
-                   return Object(i.a)(this, StonemasonryExperimentation), n.call(this, "stonemasonry experimentation", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, StonemasonryExperimentation), n.call(this, "Камнеобработческие эксперименты", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return StonemasonryExperimentation
            }(D),
@@ -1277,7 +1277,7 @@
 
                function NecromancyExperimentation() {
                    var e;
-                   return Object(i.a)(this, NecromancyExperimentation), n.call(this, "necromancy experimentation", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, NecromancyExperimentation), n.call(this, "Некромантические эксперименты", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return NecromancyExperimentation
            }(D),
@@ -1287,7 +1287,7 @@
 
                function WoodworkingExperimentation() {
                    var e;
-                   return Object(i.a)(this, WoodworkingExperimentation), n.call(this, "woodworking experimentation", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, WoodworkingExperimentation), n.call(this, "Деревообработческие эксперименты", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return WoodworkingExperimentation
            }(D),
@@ -1297,7 +1297,7 @@
 
                function BlacksmithingExperimentationPoints() {
                    var e;
-                   return Object(i.a)(this, BlacksmithingExperimentationPoints), n.call(this, "blacksmithing experimentation points", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, BlacksmithingExperimentationPoints), n.call(this, "Кузнеческие эксперементальные очки", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return BlacksmithingExperimentationPoints
            }(D),
@@ -1307,7 +1307,7 @@
 
                function RunemakingExperimentationPoints() {
                    var e;
-                   return Object(i.a)(this, RunemakingExperimentationPoints), n.call(this, "runemaking experimentation points", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, RunemakingExperimentationPoints), n.call(this, "Рунника эксперементальные очки", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return RunemakingExperimentationPoints
            }(D),
@@ -1317,7 +1317,7 @@
 
                function NecromancyExperimentationPoints() {
                    var e;
-                   return Object(i.a)(this, NecromancyExperimentationPoints), n.call(this, "necromancy experimentation points", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, NecromancyExperimentationPoints), n.call(this, "Некроманта эксперементальные очки", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return NecromancyExperimentationPoints
            }(D),
@@ -1327,7 +1327,7 @@
 
                function WoodworkingExperimentationPoints() {
                    var e;
-                   return Object(i.a)(this, WoodworkingExperimentationPoints), n.call(this, "woodworking experimentation points", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, WoodworkingExperimentationPoints), n.call(this, "Деревооброботчика эксперементальные очки", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return WoodworkingExperimentationPoints
            }(D),
@@ -1337,7 +1337,7 @@
 
                function LeatherworkingExperimentationPoints() {
                    var e;
-                   return Object(i.a)(this, LeatherworkingExperimentationPoints), n.call(this, "leatherworking experimentation points", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, LeatherworkingExperimentationPoints), n.call(this, "Кожевнечиские эксперементальные очки", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return LeatherworkingExperimentationPoints
            }(D),
@@ -1347,7 +1347,7 @@
 
                function StonemasonryExperimentationPoints() {
                    var e;
-                   return Object(i.a)(this, StonemasonryExperimentationPoints), n.call(this, "stonemasonry experimentation points", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, StonemasonryExperimentationPoints), n.call(this, "Камнеобработческие эксперементальные очки", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return StonemasonryExperimentationPoints
            }(D),
@@ -1357,7 +1357,7 @@
 
                function AlchemyExperimentationPoints() {
                    var e;
-                   return Object(i.a)(this, AlchemyExperimentationPoints), n.call(this, "alchemy experimentation points", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, AlchemyExperimentationPoints), n.call(this, "Алхимические эксперементальные очки", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return AlchemyExperimentationPoints
            }(D),
@@ -1367,7 +1367,7 @@
 
                function JewelcraftingExperimentationPoints() {
                    var e;
-                   return Object(i.a)(this, JewelcraftingExperimentationPoints), n.call(this, "jewelcrafting experimentation points", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, JewelcraftingExperimentationPoints), n.call(this, "Ювелирные эксперементальные очки", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return JewelcraftingExperimentationPoints
            }(D),
@@ -1377,7 +1377,7 @@
 
                function OutOfCombatStaminaRegeneration() {
                    var e;
-                   return Object(i.a)(this, OutOfCombatStaminaRegeneration), n.call(this, "out of combat stamina regeneration", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, OutOfCombatStaminaRegeneration), n.call(this, "Регенерация выносливости вне боя", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return OutOfCombatStaminaRegeneration
            }(D),
@@ -1387,7 +1387,7 @@
 
                function HarvestingEfficiency() {
                    var e;
-                   return Object(i.a)(this, HarvestingEfficiency), n.call(this, "harvesting efficiency", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, HarvestingEfficiency), n.call(this, "Эффективность жатвы", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return HarvestingEfficiency
            }(D),
@@ -1397,7 +1397,7 @@
 
                function HarvestingDamageAll() {
                    var e;
-                   return Object(i.a)(this, HarvestingDamageAll), n.call(this, "harvesting damage: all", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, HarvestingDamageAll), n.call(this, "Урон жатвы: все", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return HarvestingDamageAll
            }(D),
@@ -1407,7 +1407,7 @@
 
                function HarvestingAll() {
                    var e;
-                   return Object(i.a)(this, HarvestingAll), n.call(this, "harvesting: all", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, HarvestingAll), n.call(this, "Жатва: все", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return HarvestingAll
            }(D),
@@ -1417,7 +1417,7 @@
 
                function SpotWeaknessAll() {
                    var e;
-                   return Object(i.a)(this, SpotWeaknessAll), n.call(this, "spot weakness: all", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, SpotWeaknessAll), n.call(this, "Точки жатвы: все", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return SpotWeaknessAll
            }(D),
@@ -1427,7 +1427,7 @@
 
                function PersonalHealingModifier() {
                    var e;
-                   return Object(i.a)(this, PersonalHealingModifier), n.call(this, "personal healing modifier", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, PersonalHealingModifier), n.call(this, "Модификатор личного исцеления", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return PersonalHealingModifier
            }(D),
@@ -1437,7 +1437,7 @@
 
                function RangedDistanceBonus() {
                    var e;
-                   return Object(i.a)(this, RangedDistanceBonus), n.call(this, "ranged distance bonus", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, RangedDistanceBonus), n.call(this, "Бонус дальней дистанции", "Stat", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return RangedDistanceBonus
            }(D),
@@ -1447,7 +1447,7 @@
 
                function Wood() {
                    var e;
-                   return Object(i.a)(this, Wood), n.call(this, "wood", "Material", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Wood), n.call(this, "Дерево", "Material", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Wood
            }(D),
@@ -1457,7 +1457,7 @@
 
                function Stone() {
                    var e;
-                   return Object(i.a)(this, Stone), n.call(this, "stone", "Material", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Stone), n.call(this, "Камень", "Material", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Stone
            }(D),
@@ -1467,7 +1467,7 @@
 
                function Meat() {
                    var e;
-                   return Object(i.a)(this, Meat), n.call(this, "meat", "Ingredient", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Meat), n.call(this, "Мясо", "Ingredient", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Meat
            }(D),
@@ -1477,7 +1477,7 @@
 
                function Mushroom() {
                    var e;
-                   return Object(i.a)(this, Mushroom), n.call(this, "mushroom", "Ingredient", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
+                   return Object(i.a)(this, Mushroom), n.call(this, "Грибы", "Ingredient", (e = {}, Object(E.a)(e, S.Common.name, 0), Object(E.a)(e, S.Uncommon.name, 0), Object(E.a)(e, S.Rare.name, 0), Object(E.a)(e, S.Epic.name, 0), Object(E.a)(e, S.Legendary.name, 0), e))
                }
                return Mushroom
            }(D),
@@ -1595,9 +1595,9 @@
                Mushroom: new kn
            },
            Gn = {
-               WeaponCrafting: "weapon crafting vendor",
-               Food: "food vendor",
-               CraftingDisciplines: "crafting disciplines vendor"
+               WeaponCrafting: "Оружейтик",
+               Food: "Повар",
+               CraftingDisciplines: "Поставщик ремесленых дисцеплин"
            },
            Hn = t(6),
            Pn = t(41),
@@ -3721,7 +3721,7 @@
                var n = Object(o.a)(CompositeWoodPlank);
 
                function CompositeWoodPlank() {
-                   return Object(r.a)(this, CompositeWoodPlank), n.call(this, "composite wood plank", [c.h.Woodworker], [c.i.Common, c.i.Uncommon, c.i.Rare, c.i.Epic, c.i.Legendary], [new c.a(9, new w.Wood), new c.a(9, new w.Wood), new c.a(9, new w.Wood), new c.a(6, new l.Sandpaper)], 1, "", [new h, new f, new p, new O, new j, new v, new C, new S, new E, new D, new B, new y, new R, new k, new A])
+                   return Object(r.a)(this, CompositeWoodPlank), n.call(this, "Композитная деревянная доска", [c.h.Woodworker], [c.i.Common, c.i.Uncommon, c.i.Rare, c.i.Epic, c.i.Legendary], [new c.a(9, new w.Wood), new c.a(9, new w.Wood), new c.a(9, new w.Wood), new c.a(6, new l.Sandpaper)], 1, "", [new h, new f, new p, new O, new j, new v, new C, new S, new E, new D, new B, new y, new R, new k, new A])
                }
                return CompositeWoodPlank
            }(c.b),
@@ -3731,7 +3731,7 @@
 
                function BattenCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, BattenCompositeWoodPlankCustomization), n.call(this, "batten", [new d.Spruce, new g.Yew, new g.Yew], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.SupportPower]), Object(a.a)(e, c.i.Uncommon.name, [c.g.SupportPower]), Object(a.a)(e, c.i.Rare.name, [c.g.SupportPower]), Object(a.a)(e, c.i.Epic.name, [c.g.SupportPower, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.SupportPower, c.g.AttackPower]), e))
+                   return Object(r.a)(this, BattenCompositeWoodPlankCustomization), n.call(this, "Рейка", [new d.Spruce, new g.Yew, new g.Yew], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.SupportPower]), Object(a.a)(e, c.i.Uncommon.name, [c.g.SupportPower]), Object(a.a)(e, c.i.Rare.name, [c.g.SupportPower]), Object(a.a)(e, c.i.Epic.name, [c.g.SupportPower, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.SupportPower, c.g.AttackPower]), e))
                }
                return BattenCompositeWoodPlankCustomization
            }(c.c),
@@ -3741,7 +3741,7 @@
 
                function PliableCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, PliableCompositeWoodPlankCustomization), n.call(this, "pliable", [new d.Spruce, new s.Ash, new s.Ash], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Stamina]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Stamina]), Object(a.a)(e, c.i.Rare.name, [c.g.Stamina]), Object(a.a)(e, c.i.Epic.name, [c.g.Stamina, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.Stamina, c.g.AttackPower]), e))
+                   return Object(r.a)(this, PliableCompositeWoodPlankCustomization), n.call(this, "Гибкая", [new d.Spruce, new s.Ash, new s.Ash], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Stamina]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Stamina]), Object(a.a)(e, c.i.Rare.name, [c.g.Stamina]), Object(a.a)(e, c.i.Epic.name, [c.g.Stamina, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.Stamina, c.g.AttackPower]), e))
                }
                return PliableCompositeWoodPlankCustomization
            }(c.c),
@@ -3751,7 +3751,7 @@
 
                function SapidCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, SapidCompositeWoodPlankCustomization), n.call(this, "sapid", [new m.Oak, new m.Oak, new d.Spruce], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Stamina]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Stamina]), Object(a.a)(e, c.i.Rare.name, [c.g.Stamina]), Object(a.a)(e, c.i.Epic.name, [c.g.Stamina, c.g.SupportPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.Stamina, c.g.SupportPower]), e))
+                   return Object(r.a)(this, SapidCompositeWoodPlankCustomization), n.call(this, "Упомянутая", [new m.Oak, new m.Oak, new d.Spruce], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Stamina]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Stamina]), Object(a.a)(e, c.i.Rare.name, [c.g.Stamina]), Object(a.a)(e, c.i.Epic.name, [c.g.Stamina, c.g.SupportPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.Stamina, c.g.SupportPower]), e))
                }
                return SapidCompositeWoodPlankCustomization
            }(c.c),
@@ -3761,7 +3761,7 @@
 
                function StoutCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, StoutCompositeWoodPlankCustomization), n.call(this, "stout", [new m.Oak, new d.Spruce, new d.Spruce], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.FireArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.FireArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.FireArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.FireArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.FireArmorPenetration, c.g.AttackPower]), e))
+                   return Object(r.a)(this, StoutCompositeWoodPlankCustomization), n.call(this, "Крепкая", [new m.Oak, new d.Spruce, new d.Spruce], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.FireArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.FireArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.FireArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.FireArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.FireArmorPenetration, c.g.AttackPower]), e))
                }
                return StoutCompositeWoodPlankCustomization
            }(c.c),
@@ -3771,7 +3771,7 @@
 
                function RusticCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, RusticCompositeWoodPlankCustomization), n.call(this, "rustic", [new u.Birch, new u.Birch, new g.Yew], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.IceArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.IceArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.IceArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.IceArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.IceArmorPenetration, c.g.AttackPower]), e))
+                   return Object(r.a)(this, RusticCompositeWoodPlankCustomization), n.call(this, "Простая", [new u.Birch, new u.Birch, new g.Yew], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.IceArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.IceArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.IceArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.IceArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.IceArmorPenetration, c.g.AttackPower]), e))
                }
                return RusticCompositeWoodPlankCustomization
            }(c.c),
@@ -3781,7 +3781,7 @@
 
                function BuildersCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, BuildersCompositeWoodPlankCustomization), n.call(this, "builder's", [new u.Birch, new s.Ash, new s.Ash], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.ElectricityArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.ElectricityArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.ElectricityArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.ElectricityArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.ElectricityArmorPenetration, c.g.AttackPower]), e))
+                   return Object(r.a)(this, BuildersCompositeWoodPlankCustomization), n.call(this, "Строительная", [new u.Birch, new s.Ash, new s.Ash], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.ElectricityArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.ElectricityArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.ElectricityArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.ElectricityArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.ElectricityArmorPenetration, c.g.AttackPower]), e))
                }
                return BuildersCompositeWoodPlankCustomization
            }(c.c),
@@ -3791,7 +3791,7 @@
 
                function PressedCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, PressedCompositeWoodPlankCustomization), n.call(this, "pressed", [new d.Spruce, new u.Birch, new s.Ash], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.NatureArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.NatureArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.NatureArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.NatureArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.NatureArmorPenetration, c.g.AttackPower]), e))
+                   return Object(r.a)(this, PressedCompositeWoodPlankCustomization), n.call(this, "Спрессованая", [new d.Spruce, new u.Birch, new s.Ash], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.NatureArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.NatureArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.NatureArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.NatureArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.NatureArmorPenetration, c.g.AttackPower]), e))
                }
                return PressedCompositeWoodPlankCustomization
            }(c.c),
@@ -3801,7 +3801,7 @@
 
                function PrimeCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, PrimeCompositeWoodPlankCustomization), n.call(this, "prime", [new m.Oak, new m.Oak, new u.Birch], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.SlashingArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.SlashingArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.SlashingArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.SlashingArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.SlashingArmorPenetration, c.g.AttackPower]), e))
+                   return Object(r.a)(this, PrimeCompositeWoodPlankCustomization), n.call(this, "Основная", [new m.Oak, new m.Oak, new u.Birch], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.SlashingArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.SlashingArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.SlashingArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.SlashingArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.SlashingArmorPenetration, c.g.AttackPower]), e))
                }
                return PrimeCompositeWoodPlankCustomization
            }(c.c),
@@ -3811,7 +3811,7 @@
 
                function SheatedCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, SheatedCompositeWoodPlankCustomization), n.call(this, "sheated", [new d.Spruce, new u.Birch, new g.Yew], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CrushingArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CrushingArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.CrushingArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.CrushingArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.CrushingArmorPenetration, c.g.AttackPower]), e))
+                   return Object(r.a)(this, SheatedCompositeWoodPlankCustomization), n.call(this, "Обшитая", [new d.Spruce, new u.Birch, new g.Yew], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CrushingArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CrushingArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.CrushingArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.CrushingArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.CrushingArmorPenetration, c.g.AttackPower]), e))
                }
                return SheatedCompositeWoodPlankCustomization
            }(c.c),
@@ -3821,7 +3821,7 @@
 
                function WanedCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, WanedCompositeWoodPlankCustomization), n.call(this, "waned", [new g.Yew, new g.Yew, new m.Oak], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.PiercingArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.PiercingArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.PiercingArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.PiercingArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.PiercingArmorPenetration, c.g.AttackPower]), e))
+                   return Object(r.a)(this, WanedCompositeWoodPlankCustomization), n.call(this, "Ослабленная", [new g.Yew, new g.Yew, new m.Oak], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.PiercingArmorPenetration]), Object(a.a)(e, c.i.Uncommon.name, [c.g.PiercingArmorPenetration]), Object(a.a)(e, c.i.Rare.name, [c.g.PiercingArmorPenetration]), Object(a.a)(e, c.i.Epic.name, [c.g.PiercingArmorPenetration, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.PiercingArmorPenetration, c.g.AttackPower]), e))
                }
                return WanedCompositeWoodPlankCustomization
            }(c.c),
@@ -3831,7 +3831,7 @@
 
                function SelectOakCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, SelectOakCompositeWoodPlankCustomization), n.call(this, "select oak", [new m.Oak, new m.Oak, new m.Oak], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Rare.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Epic.name, [c.g.CriticalStrikeChance, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.CriticalStrikeChance, c.g.AttackPower]), e))
+                   return Object(r.a)(this, SelectOakCompositeWoodPlankCustomization), n.call(this, "Выберите дуб", [new m.Oak, new m.Oak, new m.Oak], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Rare.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Epic.name, [c.g.CriticalStrikeChance, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.CriticalStrikeChance, c.g.AttackPower]), e))
                }
                return SelectOakCompositeWoodPlankCustomization
            }(c.c),
@@ -3841,7 +3841,7 @@
 
                function SelectBirchCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, SelectBirchCompositeWoodPlankCustomization), n.call(this, "select birch", [new u.Birch, new u.Birch, new u.Birch], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CriticalStrikeDamage]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CriticalStrikeDamage]), Object(a.a)(e, c.i.Rare.name, [c.g.CriticalStrikeDamage]), Object(a.a)(e, c.i.Epic.name, [c.g.CriticalStrikeDamage, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.CriticalStrikeDamage, c.g.AttackPower]), e))
+                   return Object(r.a)(this, SelectBirchCompositeWoodPlankCustomization), n.call(this, "Выберите березу", [new u.Birch, new u.Birch, new u.Birch], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CriticalStrikeDamage]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CriticalStrikeDamage]), Object(a.a)(e, c.i.Rare.name, [c.g.CriticalStrikeDamage]), Object(a.a)(e, c.i.Epic.name, [c.g.CriticalStrikeDamage, c.g.AttackPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.CriticalStrikeDamage, c.g.AttackPower]), e))
                }
                return SelectBirchCompositeWoodPlankCustomization
            }(c.c),
@@ -3851,7 +3851,7 @@
 
                function SelectSpruceCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, SelectSpruceCompositeWoodPlankCustomization), n.call(this, "select spruce", [new d.Spruce, new d.Spruce, new d.Spruce], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CriticalHealingChance]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CriticalHealingChance]), Object(a.a)(e, c.i.Rare.name, [c.g.CriticalHealingChance]), Object(a.a)(e, c.i.Epic.name, [c.g.CriticalHealingChance, c.g.SupportPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.CriticalHealingChance, c.g.SupportPower]), e))
+                   return Object(r.a)(this, SelectSpruceCompositeWoodPlankCustomization), n.call(this, "Выбирете ель", [new d.Spruce, new d.Spruce, new d.Spruce], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CriticalHealingChance]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CriticalHealingChance]), Object(a.a)(e, c.i.Rare.name, [c.g.CriticalHealingChance]), Object(a.a)(e, c.i.Epic.name, [c.g.CriticalHealingChance, c.g.SupportPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.CriticalHealingChance, c.g.SupportPower]), e))
                }
                return SelectSpruceCompositeWoodPlankCustomization
            }(c.c),
@@ -3861,7 +3861,7 @@
 
                function SelectAshCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, SelectAshCompositeWoodPlankCustomization), n.call(this, "select ash", [new s.Ash, new s.Ash, new s.Ash], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CriticalHealingAmount]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CriticalHealingAmount]), Object(a.a)(e, c.i.Rare.name, [c.g.CriticalHealingAmount]), Object(a.a)(e, c.i.Epic.name, [c.g.CriticalHealingAmount, c.g.SupportPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.CriticalHealingAmount, c.g.SupportPower]), e))
+                   return Object(r.a)(this, SelectAshCompositeWoodPlankCustomization), n.call(this, "Выберите ясень", [new s.Ash, new s.Ash, new s.Ash], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CriticalHealingAmount]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CriticalHealingAmount]), Object(a.a)(e, c.i.Rare.name, [c.g.CriticalHealingAmount]), Object(a.a)(e, c.i.Epic.name, [c.g.CriticalHealingAmount, c.g.SupportPower]), Object(a.a)(e, c.i.Legendary.name, [c.g.CriticalHealingAmount, c.g.SupportPower]), e))
                }
                return SelectAshCompositeWoodPlankCustomization
            }(c.c),
@@ -3871,7 +3871,7 @@
 
                function SelectYewCompositeWoodPlankCustomization() {
                    var e;
-                   return Object(r.a)(this, SelectYewCompositeWoodPlankCustomization), n.call(this, "select yew", [new g.Yew, new g.Yew, new g.Yew], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Rare.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Epic.name, [c.g.CriticalStrikeChance, c.g.CriticalStrikeDamage]), Object(a.a)(e, c.i.Legendary.name, [c.g.CriticalStrikeChance, c.g.CriticalStrikeDamage]), e))
+                   return Object(r.a)(this, SelectYewCompositeWoodPlankCustomization), n.call(this, "Выберите тис", [new g.Yew, new g.Yew, new g.Yew], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Uncommon.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Rare.name, [c.g.CriticalStrikeChance]), Object(a.a)(e, c.i.Epic.name, [c.g.CriticalStrikeChance, c.g.CriticalStrikeDamage]), Object(a.a)(e, c.i.Legendary.name, [c.g.CriticalStrikeChance, c.g.CriticalStrikeDamage]), e))
                }
                return SelectYewCompositeWoodPlankCustomization
            }(c.c)
@@ -3917,7 +3917,7 @@
                var n = Object(i.a)(QualityAssuranceControlKit);
 
                function QualityAssuranceControlKit() {
-                   return Object(a.a)(this, QualityAssuranceControlKit), n.call(this, "quality assurance control kit", [o.h.Stonemason], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(15, new c.EtherealDust), new o.a(25, new u.Ore), new o.a(25, new l.Wood), new o.a(25, new s.Hide), new o.a(25, new m.Stone)], 1, "")
+                   return Object(a.a)(this, QualityAssuranceControlKit), n.call(this, "Комплект для контроля качества", [o.h.Stonemason], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(15, new c.EtherealDust), new o.a(25, new u.Ore), new o.a(25, new l.Wood), new o.a(25, new s.Hide), new o.a(25, new m.Stone)], 1, "")
                }
                return QualityAssuranceControlKit
            }(o.f)
@@ -4026,7 +4026,7 @@
                var n = Object(i.a)(GroundHalite);
 
                function GroundHalite() {
-                   return Object(a.a)(this, GroundHalite), n.call(this, "ground halite", [o.h.Alchemist], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new s.Halite)], 1, "grind resource")
+                   return Object(a.a)(this, GroundHalite), n.call(this, "Молотый галит", [o.h.Alchemist], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new s.Halite)], 1, "grind resource")
                }
                return GroundHalite
            }(c.GroundMineral)
@@ -4068,7 +4068,7 @@
                var n = Object(i.a)(CookingFoil);
 
                function CookingFoil() {
-                   return Object(a.a)(this, CookingFoil), n.call(this, "cooking foil", [o.k.Food], [o.i.Common], [new o.a(6, new c.Gold)], 1, "")
+                   return Object(a.a)(this, CookingFoil), n.call(this, "Фольга", [o.k.Food], [o.i.Common], [new o.a(6, new c.Gold)], 1, "")
                }
                return CookingFoil
            }(o.f)
@@ -4088,7 +4088,7 @@
                var n = Object(i.a)(StoneWallSection);
 
                function StoneWallSection() {
-                   return Object(a.a)(this, StoneWallSection), n.call(this, "stone wall section", [o.h.Stonemason], [o.i.Common], [new o.a(8, new c.Bricks), new o.a(2, new s.Frame)], 1, "wall section")
+                   return Object(a.a)(this, StoneWallSection), n.call(this, "Секция каменной стены", [o.h.Stonemason], [o.i.Common], [new o.a(8, new c.Bricks), new o.a(2, new s.Frame)], 1, "wall section")
                }
                return StoneWallSection
            }(o.f)
@@ -4108,7 +4108,7 @@
                var n = Object(i.a)(GroundCinnabar);
 
                function GroundCinnabar() {
-                   return Object(a.a)(this, GroundCinnabar), n.call(this, "ground cinnabar", [o.h.Alchemist], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new s.Cinnabar)], 1, "grind resource")
+                   return Object(a.a)(this, GroundCinnabar), n.call(this, "Молотый киноварь", [o.h.Alchemist], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new s.Cinnabar)], 1, "grind resource")
                }
                return GroundCinnabar
            }(c.GroundMineral)
@@ -4128,7 +4128,7 @@
                var n = Object(i.a)(Frame);
 
                function Frame() {
-                   return Object(a.a)(this, Frame), n.call(this, "frame", [o.h.Stonemason], [o.i.Common], [new o.a(2, new c.CarpentryNails), new o.a(20, new s.Wood), new o.a(20, new s.Wood), new o.a(20, new s.Wood), new o.a(20, new s.Wood)], 1, "")
+                   return Object(a.a)(this, Frame), n.call(this, "Рамка", [o.h.Stonemason], [o.i.Common], [new o.a(2, new c.CarpentryNails), new o.a(20, new s.Wood), new o.a(20, new s.Wood), new o.a(20, new s.Wood), new o.a(20, new s.Wood)], 1, "")
                }
                return Frame
            }(o.f)
@@ -4169,7 +4169,7 @@
                var n = Object(i.a)(DesiccatedBeastLeg);
 
                function DesiccatedBeastLeg() {
-                   return Object(a.a)(this, DesiccatedBeastLeg), n.call(this, "desiccated beast leg", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedBeastLeg), n.call(this, "Высушенная звериная нога", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedBeastLeg
            }(t(108).DesiccatedLeg)
@@ -4187,7 +4187,7 @@
                var n = Object(i.a)(DesiccatedCentaurBody);
 
                function DesiccatedCentaurBody() {
-                   return Object(a.a)(this, DesiccatedCentaurBody), n.call(this, "desiccated centaur body", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedCentaurBody), n.call(this, "Высушенное тело кентавра", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedCentaurBody
            }(t(271).DesiccatedBody)
@@ -4205,7 +4205,7 @@
                var n = Object(i.a)(DesiccatedElkenHead);
 
                function DesiccatedElkenHead() {
-                   return Object(a.a)(this, DesiccatedElkenHead), n.call(this, "desiccated elken head", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedElkenHead), n.call(this, "Высушенная голова керна", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedElkenHead
            }(t(109).DesiccatedHead)
@@ -4223,7 +4223,7 @@
                var n = Object(i.a)(DesiccatedElvenArm);
 
                function DesiccatedElvenArm() {
-                   return Object(a.a)(this, DesiccatedElvenArm), n.call(this, "desiccated elven arm", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedElvenArm), n.call(this, "Высушенная рука эльфа", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedElvenArm
            }(t(117).DesiccatedArm)
@@ -4241,7 +4241,7 @@
                var n = Object(i.a)(DesiccatedElvenHead);
 
                function DesiccatedElvenHead() {
-                   return Object(a.a)(this, DesiccatedElvenHead), n.call(this, "desiccated elven head", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedElvenHead), n.call(this, "Высушенная голова эльфа", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedElvenHead
            }(t(109).DesiccatedHead)
@@ -4259,7 +4259,7 @@
                var n = Object(i.a)(DesiccatedElvenLeg);
 
                function DesiccatedElvenLeg() {
-                   return Object(a.a)(this, DesiccatedElvenLeg), n.call(this, "desiccated elven leg", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedElvenLeg), n.call(this, "Высушенная нога эльфа", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedElvenLeg
            }(t(108).DesiccatedLeg)
@@ -4277,7 +4277,7 @@
                var n = Object(i.a)(DesiccatedElvenTorso);
 
                function DesiccatedElvenTorso() {
-                   return Object(a.a)(this, DesiccatedElvenTorso), n.call(this, "desiccated elven torso", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedElvenTorso), n.call(this, "Высушенный эльфийский торс", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedElvenTorso
            }(t(132).DesiccatedTorso)
@@ -4295,7 +4295,7 @@
                var n = Object(i.a)(DesiccatedGuineceanArm);
 
                function DesiccatedGuineceanArm() {
-                   return Object(a.a)(this, DesiccatedGuineceanArm), n.call(this, "desiccated guinecean arm", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedGuineceanArm), n.call(this, "Высушенная рука кейви", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedGuineceanArm
            }(t(117).DesiccatedArm)
@@ -4313,7 +4313,7 @@
                var n = Object(i.a)(DesiccatedGuineceanHead);
 
                function DesiccatedGuineceanHead() {
-                   return Object(a.a)(this, DesiccatedGuineceanHead), n.call(this, "desiccated guinecean head", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedGuineceanHead), n.call(this, "Высушенная голова кейви", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedGuineceanHead
            }(t(109).DesiccatedHead)
@@ -4331,7 +4331,7 @@
                var n = Object(i.a)(DesiccatedGuineceanLeg);
 
                function DesiccatedGuineceanLeg() {
-                   return Object(a.a)(this, DesiccatedGuineceanLeg), n.call(this, "desiccated guinecean leg", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedGuineceanLeg), n.call(this, "Высушенная нога кейви", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedGuineceanLeg
            }(t(108).DesiccatedLeg)
@@ -4349,7 +4349,7 @@
                var n = Object(i.a)(DesiccatedGuineceanTorso);
 
                function DesiccatedGuineceanTorso() {
-                   return Object(a.a)(this, DesiccatedGuineceanTorso), n.call(this, "desiccated guinecean torso", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedGuineceanTorso), n.call(this, "Высушенный торс кейви", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedGuineceanTorso
            }(t(132).DesiccatedTorso)
@@ -4367,7 +4367,7 @@
                var n = Object(i.a)(DesiccatedHumanArm);
 
                function DesiccatedHumanArm() {
-                   return Object(a.a)(this, DesiccatedHumanArm), n.call(this, "desiccated human arm", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedHumanArm), n.call(this, "Высушенная рука человаека", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedHumanArm
            }(t(117).DesiccatedArm)
@@ -4385,7 +4385,7 @@
                var n = Object(i.a)(DesiccatedHumanHead);
 
                function DesiccatedHumanHead() {
-                   return Object(a.a)(this, DesiccatedHumanHead), n.call(this, "desiccated human head", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedHumanHead), n.call(this, "Высушенная голова человека", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedHumanHead
            }(t(109).DesiccatedHead)
@@ -4403,7 +4403,7 @@
                var n = Object(i.a)(DesiccatedHumanLeg);
 
                function DesiccatedHumanLeg() {
-                   return Object(a.a)(this, DesiccatedHumanLeg), n.call(this, "desiccated human leg", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedHumanLeg), n.call(this, "Высушенная нога человаека", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedHumanLeg
            }(t(108).DesiccatedLeg)
@@ -4421,7 +4421,7 @@
                var n = Object(i.a)(DesiccatedHumanTorso);
 
                function DesiccatedHumanTorso() {
-                   return Object(a.a)(this, DesiccatedHumanTorso), n.call(this, "desiccated human torso", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedHumanTorso), n.call(this, "Высушенный торс человаека", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedHumanTorso
            }(t(132).DesiccatedTorso)
@@ -4439,7 +4439,7 @@
                var n = Object(i.a)(DesiccatedMinotaurHead);
 
                function DesiccatedMinotaurHead() {
-                   return Object(a.a)(this, DesiccatedMinotaurHead), n.call(this, "desiccated minotaur head", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedMinotaurHead), n.call(this, "Высушенная голова минотавра", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedMinotaurHead
            }(t(109).DesiccatedHead)
@@ -4457,7 +4457,7 @@
                var n = Object(i.a)(DesiccatedStonebornArm);
 
                function DesiccatedStonebornArm() {
-                   return Object(a.a)(this, DesiccatedStonebornArm), n.call(this, "desiccated stoneborn arm", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedStonebornArm), n.call(this, "Высушенная рука цверга", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedStonebornArm
            }(t(117).DesiccatedArm)
@@ -4475,7 +4475,7 @@
                var n = Object(i.a)(DesiccatedStonebornHead);
 
                function DesiccatedStonebornHead() {
-                   return Object(a.a)(this, DesiccatedStonebornHead), n.call(this, "desiccated stoneborn head", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedStonebornHead), n.call(this, "Высушенная голова цверга", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedStonebornHead
            }(t(109).DesiccatedHead)
@@ -4493,7 +4493,7 @@
                var n = Object(i.a)(DesiccatedStonebornLeg);
 
                function DesiccatedStonebornLeg() {
-                   return Object(a.a)(this, DesiccatedStonebornLeg), n.call(this, "desiccated stoneborn leg", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedStonebornLeg), n.call(this, "Высушенная нога цверга", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedStonebornLeg
            }(t(108).DesiccatedLeg)
@@ -4511,7 +4511,7 @@
                var n = Object(i.a)(DesiccatedStonebornTorso);
 
                function DesiccatedStonebornTorso() {
-                   return Object(a.a)(this, DesiccatedStonebornTorso), n.call(this, "desiccated stoneborn torso", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DesiccatedStonebornTorso), n.call(this, "Высушенный торс цверга", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DesiccatedStonebornTorso
            }(t(132).DesiccatedTorso)
@@ -4537,7 +4537,7 @@
                var n = Object(o.a)(NecklaceBail);
 
                function NecklaceBail() {
-                   return Object(r.a)(this, NecklaceBail), n.call(this, "necklace bail", [c.h.Jewelcrafter], [c.i.Common, c.i.Uncommon, c.i.Rare, c.i.Epic, c.i.Legendary], [new c.a(10, new d.Ore), new c.a(10, new w.Silver), new c.a(5, new m.EtherealDust)], 1, "", [new h, new f, new p, new O, new j])
+                   return Object(r.a)(this, NecklaceBail), n.call(this, "Скоба ожерелья", [c.h.Jewelcrafter], [c.i.Common, c.i.Uncommon, c.i.Rare, c.i.Epic, c.i.Legendary], [new c.a(10, new d.Ore), new c.a(10, new w.Silver), new c.a(5, new m.EtherealDust)], 1, "", [new h, new f, new p, new O, new j])
                }
                return NecklaceBail
            }(c.b),
@@ -4547,7 +4547,7 @@
 
                function CopperNecklaceBailCustomization() {
                    var e;
-                   return Object(r.a)(this, CopperNecklaceBailCustomization), n.call(this, "copper", [new u.Copper], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Strength]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Strength]), Object(a.a)(e, c.i.Rare.name, [c.g.Strength]), Object(a.a)(e, c.i.Epic.name, [c.g.Strength]), Object(a.a)(e, c.i.Legendary.name, [c.g.Strength]), e))
+                   return Object(r.a)(this, CopperNecklaceBailCustomization), n.call(this, "Медь", [new u.Copper], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Strength]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Strength]), Object(a.a)(e, c.i.Rare.name, [c.g.Strength]), Object(a.a)(e, c.i.Epic.name, [c.g.Strength]), Object(a.a)(e, c.i.Legendary.name, [c.g.Strength]), e))
                }
                return CopperNecklaceBailCustomization
            }(c.c),
@@ -4557,7 +4557,7 @@
 
                function IronNecklaceBailCustomization() {
                    var e;
-                   return Object(r.a)(this, IronNecklaceBailCustomization), n.call(this, "iron", [new l.Iron], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Constitution]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Constitution]), Object(a.a)(e, c.i.Rare.name, [c.g.Constitution]), Object(a.a)(e, c.i.Epic.name, [c.g.Constitution]), Object(a.a)(e, c.i.Legendary.name, [c.g.Constitution]), e))
+                   return Object(r.a)(this, IronNecklaceBailCustomization), n.call(this, "Железо", [new l.Iron], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Constitution]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Constitution]), Object(a.a)(e, c.i.Rare.name, [c.g.Constitution]), Object(a.a)(e, c.i.Epic.name, [c.g.Constitution]), Object(a.a)(e, c.i.Legendary.name, [c.g.Constitution]), e))
                }
                return IronNecklaceBailCustomization
            }(c.c),
@@ -4567,7 +4567,7 @@
 
                function TinNecklaceBailCustomization() {
                    var e;
-                   return Object(r.a)(this, TinNecklaceBailCustomization), n.call(this, "tin", [new g.Tin], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Intellect]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Intellect]), Object(a.a)(e, c.i.Rare.name, [c.g.Intellect]), Object(a.a)(e, c.i.Epic.name, [c.g.Intellect]), Object(a.a)(e, c.i.Legendary.name, [c.g.Intellect]), e))
+                   return Object(r.a)(this, TinNecklaceBailCustomization), n.call(this, "Олово", [new g.Tin], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Intellect]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Intellect]), Object(a.a)(e, c.i.Rare.name, [c.g.Intellect]), Object(a.a)(e, c.i.Epic.name, [c.g.Intellect]), Object(a.a)(e, c.i.Legendary.name, [c.g.Intellect]), e))
                }
                return TinNecklaceBailCustomization
            }(c.c),
@@ -4577,7 +4577,7 @@
 
                function SilverNecklaceBailCustomization() {
                    var e;
-                   return Object(r.a)(this, SilverNecklaceBailCustomization), n.call(this, "silver", [new w.Silver], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Rare.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Epic.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Legendary.name, [c.g.Dexterity]), e))
+                   return Object(r.a)(this, SilverNecklaceBailCustomization), n.call(this, "Серибро", [new w.Silver], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Rare.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Epic.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Legendary.name, [c.g.Dexterity]), e))
                }
                return SilverNecklaceBailCustomization
            }(c.c),
@@ -4587,7 +4587,7 @@
 
                function AureliumNecklaceBailCustomization() {
                    var e;
-                   return Object(r.a)(this, AureliumNecklaceBailCustomization), n.call(this, "aurelium", [new s.Aurelium], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Spirit]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Spirit]), Object(a.a)(e, c.i.Rare.name, [c.g.Spirit]), Object(a.a)(e, c.i.Epic.name, [c.g.Spirit]), Object(a.a)(e, c.i.Legendary.name, [c.g.Spirit]), e))
+                   return Object(r.a)(this, AureliumNecklaceBailCustomization), n.call(this, "Аврелий", [new s.Aurelium], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Spirit]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Spirit]), Object(a.a)(e, c.i.Rare.name, [c.g.Spirit]), Object(a.a)(e, c.i.Epic.name, [c.g.Spirit]), Object(a.a)(e, c.i.Legendary.name, [c.g.Spirit]), e))
                }
                return AureliumNecklaceBailCustomization
            }(c.c)
@@ -4613,7 +4613,7 @@
                var n = Object(o.a)(RingSetting);
 
                function RingSetting() {
-                   return Object(r.a)(this, RingSetting), n.call(this, "ring setting", [c.h.Jewelcrafter], [c.i.Common, c.i.Uncommon, c.i.Rare, c.i.Epic, c.i.Legendary], [new c.a(10, new d.Ore), new c.a(10, new s.Aurelium), new c.a(5, new m.EtherealDust)], 1, "", [new h, new f, new p, new O, new j])
+                   return Object(r.a)(this, RingSetting), n.call(this, "Окружение кольца", [c.h.Jewelcrafter], [c.i.Common, c.i.Uncommon, c.i.Rare, c.i.Epic, c.i.Legendary], [new c.a(10, new d.Ore), new c.a(10, new s.Aurelium), new c.a(5, new m.EtherealDust)], 1, "", [new h, new f, new p, new O, new j])
                }
                return RingSetting
            }(c.b),
@@ -4623,7 +4623,7 @@
 
                function CopperRingSettingCustomization() {
                    var e;
-                   return Object(r.a)(this, CopperRingSettingCustomization), n.call(this, "copper", [new u.Copper], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Strength]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Strength]), Object(a.a)(e, c.i.Rare.name, [c.g.Strength]), Object(a.a)(e, c.i.Epic.name, [c.g.Strength]), Object(a.a)(e, c.i.Legendary.name, [c.g.Strength]), e))
+                   return Object(r.a)(this, CopperRingSettingCustomization), n.call(this, "Медь", [new u.Copper], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Strength]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Strength]), Object(a.a)(e, c.i.Rare.name, [c.g.Strength]), Object(a.a)(e, c.i.Epic.name, [c.g.Strength]), Object(a.a)(e, c.i.Legendary.name, [c.g.Strength]), e))
                }
                return CopperRingSettingCustomization
            }(c.c),
@@ -4633,7 +4633,7 @@
 
                function IronRingSettingCustomization() {
                    var e;
-                   return Object(r.a)(this, IronRingSettingCustomization), n.call(this, "iron", [new l.Iron], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Constitution]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Constitution]), Object(a.a)(e, c.i.Rare.name, [c.g.Constitution]), Object(a.a)(e, c.i.Epic.name, [c.g.Constitution]), Object(a.a)(e, c.i.Legendary.name, [c.g.Constitution]), e))
+                   return Object(r.a)(this, IronRingSettingCustomization), n.call(this, "Железо", [new l.Iron], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Constitution]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Constitution]), Object(a.a)(e, c.i.Rare.name, [c.g.Constitution]), Object(a.a)(e, c.i.Epic.name, [c.g.Constitution]), Object(a.a)(e, c.i.Legendary.name, [c.g.Constitution]), e))
                }
                return IronRingSettingCustomization
            }(c.c),
@@ -4643,7 +4643,7 @@
 
                function TinRingSettingCustomization() {
                    var e;
-                   return Object(r.a)(this, TinRingSettingCustomization), n.call(this, "tin", [new g.Tin], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Intellect]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Intellect]), Object(a.a)(e, c.i.Rare.name, [c.g.Intellect]), Object(a.a)(e, c.i.Epic.name, [c.g.Intellect]), Object(a.a)(e, c.i.Legendary.name, [c.g.Intellect]), e))
+                   return Object(r.a)(this, TinRingSettingCustomization), n.call(this, "Олово", [new g.Tin], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Intellect]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Intellect]), Object(a.a)(e, c.i.Rare.name, [c.g.Intellect]), Object(a.a)(e, c.i.Epic.name, [c.g.Intellect]), Object(a.a)(e, c.i.Legendary.name, [c.g.Intellect]), e))
                }
                return TinRingSettingCustomization
            }(c.c),
@@ -4653,7 +4653,7 @@
 
                function SilverRingSettingCustomization() {
                    var e;
-                   return Object(r.a)(this, SilverRingSettingCustomization), n.call(this, "silver", [new w.Silver], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Rare.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Epic.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Legendary.name, [c.g.Dexterity]), e))
+                   return Object(r.a)(this, SilverRingSettingCustomization), n.call(this, "Серебро", [new w.Silver], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Rare.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Epic.name, [c.g.Dexterity]), Object(a.a)(e, c.i.Legendary.name, [c.g.Dexterity]), e))
                }
                return SilverRingSettingCustomization
            }(c.c),
@@ -4663,7 +4663,7 @@
 
                function AureliumRingSettingCustomization() {
                    var e;
-                   return Object(r.a)(this, AureliumRingSettingCustomization), n.call(this, "aurelium", [new s.Aurelium], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Spirit]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Spirit]), Object(a.a)(e, c.i.Rare.name, [c.g.Spirit]), Object(a.a)(e, c.i.Epic.name, [c.g.Spirit]), Object(a.a)(e, c.i.Legendary.name, [c.g.Spirit]), e))
+                   return Object(r.a)(this, AureliumRingSettingCustomization), n.call(this, "Аврелий", [new s.Aurelium], (e = {}, Object(a.a)(e, c.i.Common.name, [c.g.Spirit]), Object(a.a)(e, c.i.Uncommon.name, [c.g.Spirit]), Object(a.a)(e, c.i.Rare.name, [c.g.Spirit]), Object(a.a)(e, c.i.Epic.name, [c.g.Spirit]), Object(a.a)(e, c.i.Legendary.name, [c.g.Spirit]), e))
                }
                return AureliumRingSettingCustomization
            }(c.c)
@@ -4684,7 +4684,7 @@
                var n = Object(i.a)(Sandpaper);
 
                function Sandpaper() {
-                   return Object(a.a)(this, Sandpaper), n.call(this, "sandpaper", [o.h.Woodworker], [o.i.Common], [new o.a(2, new u.Wood), new o.a(1, new s.Stone), new o.a(3, new c.EtherealDust)], 5, "")
+                   return Object(a.a)(this, Sandpaper), n.call(this, "Наждачная бумага", [o.h.Woodworker], [o.i.Common], [new o.a(2, new u.Wood), new o.a(1, new s.Stone), new o.a(3, new c.EtherealDust)], 5, "")
                }
                return Sandpaper
            }(o.f)
@@ -4704,7 +4704,7 @@
                var n = Object(i.a)(RoofSegment);
 
                function RoofSegment() {
-                   return Object(a.a)(this, RoofSegment), n.call(this, "roof segment", [o.h.Stonemason], [o.i.Common], [new o.a(4, new c.CarpentryNails), new o.a(4, new s.WoodShingles)], 1, "")
+                   return Object(a.a)(this, RoofSegment), n.call(this, "Сегмент крыши", [o.h.Stonemason], [o.i.Common], [new o.a(4, new c.CarpentryNails), new o.a(4, new s.WoodShingles)], 1, "")
                }
                return RoofSegment
            }(o.f)
@@ -4760,7 +4760,7 @@
                var n = Object(i.a)(FlexibleHide);
 
                function FlexibleHide() {
-                   return Object(a.a)(this, FlexibleHide), n.call(this, "flexible hide", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, FlexibleHide), n.call(this, "Гибкая шкура", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return FlexibleHide
            }(t(9).Hide)
@@ -4779,7 +4779,7 @@
                var n = Object(i.a)(LargeCookingPot);
 
                function LargeCookingPot() {
-                   return Object(a.a)(this, LargeCookingPot), n.call(this, "large cooking pot", [o.k.Food], [o.i.Common], [new o.a(12, new c.Gold)], 1, "")
+                   return Object(a.a)(this, LargeCookingPot), n.call(this, "Большой кател", [o.k.Food], [o.i.Common], [new o.a(12, new c.Gold)], 1, "")
                }
                return LargeCookingPot
            }(o.f)
@@ -4801,7 +4801,7 @@
                var n = Object(i.a)(FreshButter);
 
                function FreshButter() {
-                   return Object(a.a)(this, FreshButter), n.call(this, "fresh butter", [o.h.Cooking], [o.i.Common], [new o.a(5, new u.RawMilk), new o.a(1, new c.CookingFoil), new o.a(2, new s.EtherealDust), new o.a(2, new m.WaterFlask)], 5, "")
+                   return Object(a.a)(this, FreshButter), n.call(this, "Свежее сливочное масло", [o.h.Cooking], [o.i.Common], [new o.a(5, new u.RawMilk), new o.a(1, new c.CookingFoil), new o.a(2, new s.EtherealDust), new o.a(2, new m.WaterFlask)], 5, "")
                }
                return FreshButter
            }(o.f)
@@ -4819,7 +4819,7 @@
                var n = Object(i.a)(RoughSapphire);
 
                function RoughSapphire() {
-                   return Object(a.a)(this, RoughSapphire), n.call(this, "rough sapphire", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, RoughSapphire), n.call(this, "Необработанный сапфир", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return RoughSapphire
            }(t(48).RoughGem)
@@ -4837,7 +4837,7 @@
                var n = Object(i.a)(RoughTopaz);
 
                function RoughTopaz() {
-                   return Object(a.a)(this, RoughTopaz), n.call(this, "rough topaz", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, RoughTopaz), n.call(this, "необработанный топаз", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return RoughTopaz
            }(t(48).RoughGem)
@@ -4856,7 +4856,7 @@
                var n = Object(i.a)(PhilosophersStone);
 
                function PhilosophersStone() {
-                   return Object(a.a)(this, PhilosophersStone), n.call(this, "philosopher's stone", [o.h.Alchemist], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new c.PhilosophersSolution), new o.a(1, new c.PhilosophersSolution)], 1, "")
+                   return Object(a.a)(this, PhilosophersStone), n.call(this, "Филосовский камень", [o.h.Alchemist], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new c.PhilosophersSolution), new o.a(1, new c.PhilosophersSolution)], 1, "")
                }
                return PhilosophersStone
            }(o.f)
@@ -4874,7 +4874,7 @@
                var n = Object(i.a)(DurableHide);
 
                function DurableHide() {
-                   return Object(a.a)(this, DurableHide), n.call(this, "durable hide", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, DurableHide), n.call(this, "Прочная шкура", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return DurableHide
            }(t(9).Hide)
@@ -4892,7 +4892,7 @@
                var n = Object(i.a)(SoftHide);
 
                function SoftHide() {
-                   return Object(a.a)(this, SoftHide), n.call(this, "soft hide", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, SoftHide), n.call(this, "Мягкая шкура", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return SoftHide
            }(t(9).Hide)
@@ -4911,7 +4911,7 @@
                var n = Object(i.a)(SeasoningSalt);
 
                function SeasoningSalt() {
-                   return Object(a.a)(this, SeasoningSalt), n.call(this, "seasoning salt", [o.k.Food], [o.i.Common], [new o.a(10, new c.Gold)], 1, "")
+                   return Object(a.a)(this, SeasoningSalt), n.call(this, "Соль", [o.k.Food], [o.i.Common], [new o.a(10, new c.Gold)], 1, "")
                }
                return SeasoningSalt
            }(o.f)
@@ -4929,7 +4929,7 @@
                var n = Object(i.a)(RoughEmerald);
 
                function RoughEmerald() {
-                   return Object(a.a)(this, RoughEmerald), n.call(this, "rough emerald", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, RoughEmerald), n.call(this, "Необработанный изумруд", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return RoughEmerald
            }(t(48).RoughGem)
@@ -4947,7 +4947,7 @@
                var n = Object(i.a)(RoughRuby);
 
                function RoughRuby() {
-                   return Object(a.a)(this, RoughRuby), n.call(this, "rough ruby", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, RoughRuby), n.call(this, "Необработанный рубин", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return RoughRuby
            }(t(48).RoughGem)
@@ -4968,7 +4968,7 @@
                var n = Object(i.a)(Soil);
 
                function Soil() {
-                   return Object(a.a)(this, Soil), n.call(this, "soil", [o.h.Stonemason], [o.i.Common], [new o.a(8, new c.Gravel), new o.a(8, new s.Mulch), new o.a(8, new u.OreConcentrate)], 1, "")
+                   return Object(a.a)(this, Soil), n.call(this, "Почва", [o.h.Stonemason], [o.i.Common], [new o.a(8, new c.Gravel), new o.a(8, new s.Mulch), new o.a(8, new u.OreConcentrate)], 1, "")
                }
                return Soil
            }(o.f)
@@ -4986,7 +4986,7 @@
                var n = Object(i.a)(StrongHide);
 
                function StrongHide() {
-                   return Object(a.a)(this, StrongHide), n.call(this, "strong hide", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, StrongHide), n.call(this, "Крепкая шкура", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return StrongHide
            }(t(9).Hide)
@@ -5005,7 +5005,7 @@
                var n = Object(i.a)(GroundBlackPepper);
 
                function GroundBlackPepper() {
-                   return Object(a.a)(this, GroundBlackPepper), n.call(this, "ground black pepper", [o.k.Food], [o.i.Common], [new o.a(10, new c.Gold)], 1, "")
+                   return Object(a.a)(this, GroundBlackPepper), n.call(this, "Молотый черный перец", [o.k.Food], [o.i.Common], [new o.a(10, new c.Gold)], 1, "")
                }
                return GroundBlackPepper
            }(o.f)
@@ -5023,7 +5023,7 @@
                var n = Object(i.a)(RoughDiamond);
 
                function RoughDiamond() {
-                   return Object(a.a)(this, RoughDiamond), n.call(this, "rough diamond", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, RoughDiamond), n.call(this, "Необработанный алмаз", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return RoughDiamond
            }(t(48).RoughGem)
@@ -5041,7 +5041,7 @@
                var n = Object(i.a)(Mushroom);
 
                function Mushroom() {
-                   return Object(a.a)(this, Mushroom), n.call(this, "mushroom", [], [o.i.Common], [], 1)
+                   return Object(a.a)(this, Mushroom), n.call(this, "Гриб", [], [o.i.Common], [], 1)
                }
                return Mushroom
            }(t(36).Produce)
@@ -5063,7 +5063,7 @@
                var n = Object(i.a)(Bread);
 
                function Bread() {
-                   return Object(a.a)(this, Bread), n.call(this, "bread", [o.h.Cooking], [o.i.Common], [new o.a(1, new m.Yeast), new o.a(2, new s.PotatoFlour), new o.a(1, new c.CookingFoil), new o.a(2, new u.WaterFlask)], 1, "")
+                   return Object(a.a)(this, Bread), n.call(this, "Хлеб", [o.h.Cooking], [o.i.Common], [new o.a(1, new m.Yeast), new o.a(2, new s.PotatoFlour), new o.a(1, new c.CookingFoil), new o.a(2, new u.WaterFlask)], 1, "")
                }
                return Bread
            }(o.f)
@@ -5082,7 +5082,7 @@
                var n = Object(i.a)(ParchmentPaper);
 
                function ParchmentPaper() {
-                   return Object(a.a)(this, ParchmentPaper), n.call(this, "parchment paper", [o.h.Woodworker], [o.i.Common], [new o.a(1, new c.Wood)], 1, "")
+                   return Object(a.a)(this, ParchmentPaper), n.call(this, "Пергаментная бумага", [o.h.Woodworker], [o.i.Common], [new o.a(1, new c.Wood)], 1, "")
                }
                return ParchmentPaper
            }(o.f)
@@ -5102,7 +5102,7 @@
                var n = Object(i.a)(RestoredHumanArm);
 
                function RestoredHumanArm() {
-                   return Object(a.a)(this, RestoredHumanArm), n.call(this, "restored human arm", [o.h.Necromancer], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new s.DesiccatedHumanArm), new o.a(2, new c.Ambrosia)], 1, "restored arm")
+                   return Object(a.a)(this, RestoredHumanArm), n.call(this, "Востановленная человеческая рука", [o.h.Necromancer], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new s.DesiccatedHumanArm), new o.a(2, new c.Ambrosia)], 1, "restored arm")
                }
                return RestoredHumanArm
            }(o.f)
@@ -5120,7 +5120,7 @@
                var n = Object(i.a)(ToughHide);
 
                function ToughHide() {
-                   return Object(a.a)(this, ToughHide), n.call(this, "tough hide", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
+                   return Object(a.a)(this, ToughHide), n.call(this, "жесткая шкура", [], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [], 1)
                }
                return ToughHide
            }(t(9).Hide)
@@ -5140,7 +5140,7 @@
                var n = Object(i.a)(WoodWallSection);
 
                function WoodWallSection() {
-                   return Object(a.a)(this, WoodWallSection), n.call(this, "wood wall section", [o.h.Stonemason], [o.i.Common], [new o.a(8, new s.WoodStakes), new o.a(2, new c.Frame)], 1, "wall section")
+                   return Object(a.a)(this, WoodWallSection), n.call(this, "Секция деревянной стены", [o.h.Stonemason], [o.i.Common], [new o.a(8, new s.WoodStakes), new o.a(2, new c.Frame)], 1, "wall section")
                }
                return WoodWallSection
            }(o.f)
@@ -5161,7 +5161,7 @@
                var n = Object(i.a)(PasteurizedMilk);
 
                function PasteurizedMilk() {
-                   return Object(a.a)(this, PasteurizedMilk), n.call(this, "pasteurized milk", [o.h.Cooking], [o.i.Common], [new o.a(5, new u.RawMilk), new o.a(1, new s.LargeCookingPot), new o.a(2, new c.EtherealDust)], 5, "")
+                   return Object(a.a)(this, PasteurizedMilk), n.call(this, "Пастеризованное молоко", [o.h.Cooking], [o.i.Common], [new o.a(5, new u.RawMilk), new o.a(1, new s.LargeCookingPot), new o.a(2, new c.EtherealDust)], 5, "")
                }
                return PasteurizedMilk
            }(o.f)
@@ -5180,7 +5180,7 @@
                var n = Object(i.a)(RoastingStick);
 
                function RoastingStick() {
-                   return Object(a.a)(this, RoastingStick), n.call(this, "roasting stick", [o.k.Food], [o.i.Common], [new o.a(6, new c.Gold)], 1, "")
+                   return Object(a.a)(this, RoastingStick), n.call(this, "Шампур", [o.k.Food], [o.i.Common], [new o.a(6, new c.Gold)], 1, "")
                }
                return RoastingStick
            }(o.f)
@@ -5201,7 +5201,7 @@
                var n = Object(i.a)(WeaponHilt);
 
                function WeaponHilt() {
-                   return Object(a.a)(this, WeaponHilt), n.call(this, "weapon hilt", [o.h.Weaponsmith, o.h.Armorsmith], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new s.WeaponGrip), new o.a(1, new u.WeaponPommel), new o.a(1, new c.WeaponCrossguard)], 1, "")
+                   return Object(a.a)(this, WeaponHilt), n.call(this, "Эфес", [o.h.Weaponsmith, o.h.Armorsmith], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new s.WeaponGrip), new o.a(1, new u.WeaponPommel), new o.a(1, new c.WeaponCrossguard)], 1, "")
                }
                return WeaponHilt
            }(o.f)
@@ -5244,7 +5244,7 @@
                var n = Object(i.a)(LeatherPadding);
 
                function LeatherPadding() {
-                   return Object(a.a)(this, LeatherPadding), n.call(this, "leather padding", [o.h.Leatherworker], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(2, new c.Hide), new o.a(2, new c.Hide), new o.a(2, new c.Hide), new o.a(1, new s.LacingSinew)], 1, "")
+                   return Object(a.a)(this, LeatherPadding), n.call(this, "Кожанная подкладка", [o.h.Leatherworker], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(2, new c.Hide), new o.a(2, new c.Hide), new o.a(2, new c.Hide), new o.a(1, new s.LacingSinew)], 1, "")
                }
                return LeatherPadding
            }(o.f)
@@ -5263,7 +5263,7 @@
                var n = Object(i.a)(WeaponGrip);
 
                function WeaponGrip() {
-                   return Object(a.a)(this, WeaponGrip), n.call(this, "weapon grip", [o.h.Leatherworker], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new c.StitchedLeather)], 1, "")
+                   return Object(a.a)(this, WeaponGrip), n.call(this, "Рукоядка", [o.h.Leatherworker], [o.i.Common, o.i.Uncommon, o.i.Rare, o.i.Epic, o.i.Legendary], [new o.a(1, new c.StitchedLeather)], 1, "")
                }
                return WeaponGrip
            }(o.f)
@@ -5333,7 +5333,7 @@
                var n = Object(i.a)(ArchitecturalWall);
 
                function ArchitecturalWall() {
-                   return Object(a.a)(this, ArchitecturalWall), n.call(this, "architectural wall", [o.h.Stonemason], [o.i.Common], [new o.a(2, new c.Bricks), new o.a(4, new u.Frame), new o.a(2, new m.WallInsulation), new o.a(1, new s.CarpentryNails)], 1, "")
+                   return Object(a.a)(this, ArchitecturalWall), n.call(this, "Архитектурная стена", [o.h.Stonemason], [o.i.Common], [new o.a(2, new c.Bricks), new o.a(4, new u.Frame), new o.a(2, new m.WallInsulation), new o.a(1, new s.CarpentryNails)], 1, "")
                }
                return ArchitecturalWall
            }(o.f)
@@ -5352,7 +5352,7 @@
                var n = Object(i.a)(SugarCane);
 
                function SugarCane() {
-                   return Object(a.a)(this, SugarCane), n.call(this, "sugar cane", [o.k.Food], [o.i.Common], [new o.a(10, new c.Gold)], 1, "")
+                   return Object(a.a)(this, SugarCane), n.call(this, "Сахорный тростник", [o.k.Food], [o.i.Common], [new o.a(10, new c.Gold)], 1, "")
                }
                return SugarCane
            }(o.f)
@@ -22652,7 +22652,7 @@
                    })]
                })
            },
-           y = (t(1519), t.p + "/image/logo.png"),
+           y = (t(1519), "/image/logo.png"),
            k = function Header(e) {
                var n = e.className;
                return Object(D.jsx)("div", {
